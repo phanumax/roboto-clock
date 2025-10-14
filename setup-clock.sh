@@ -75,7 +75,7 @@ cat > /home/thadmin/.config/autostart/roboto-clock.desktop << EOF
 [Desktop Entry]
 Type=Application
 Name=Datacenter Clock
-Exec=chromium --incognito --noerrdialogs --disable-infobars --disable-session-crashed-bubble --disable-features=Translate --kiosk file://$HTML_PATH
+Exec=chromium --password-store=basic --incognito --no-first-run --noerrdialogs --disable-infobars --disable-session-crashed-bubble --disable-features=Translate --kiosk file://$HTML_PATH
 StartupNotify=false
 Terminal=false
 EOF
