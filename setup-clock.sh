@@ -34,6 +34,7 @@ cat > "$HTML_PATH" << 'EOF'
       align-items: center;
       overflow: hidden;
       letter-spacing: 2px;
+      cursor: none;
     }
     #clock {
       font-size: 22vw;
